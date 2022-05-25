@@ -6,22 +6,59 @@ public class Usuario {
  protected String idUsuario;
  protected String nomeUsuario;
  protected String cpf;
- protected date dataNascimento ;
+ ;
  protected String email;
- protected date dataRegistro;
 
- public Usuario(){
-}
+ public Usuario() {
+ }
 
- public Usuario(String idUsuario, String nomeUsuario, String cpf, date dataNascimento, String email, date dataRegistro) {
+ public Usuario(String idUsuario, String nomeUsuario, String cpf, String email) {
   this.idUsuario = idUsuario;
   this.nomeUsuario = nomeUsuario;
   this.cpf = cpf;
-  this.dataNascimento = dataNascimento;
   this.email = email;
-  this.dataRegistro = dataRegistro;
+
  }
 
-//Metodos costumizados
+ //Metodos costumizados
+
+ public String getIdUsuario() {
+  return idUsuario;
+ }
+
+ public void setIdUsuario(String idUsuario) {
+  this.idUsuario = idUsuario;
+ }
+
+ public String getNomeUsuario() {
+  return nomeUsuario;
+ }
+
+ public void setNomeUsuario(String nomeUsuario) {
+  this.nomeUsuario = nomeUsuario;
+ }
+
+ public String getCpf() {
+  return cpf;
+ }
+
+ public void setCpf(String cpf) {
+  this.cpf = cpf;
+ }
+
+ public String getEmail() {
+  return email;
+ }
+
+ public void setEmail(String email) {
+  this.email = email;
+
+ }
+
+ class String {
+ }
+}
+
+
 
 

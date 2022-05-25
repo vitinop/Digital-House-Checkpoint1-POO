@@ -10,8 +10,8 @@ public class Aluno extends Usuario {
         this.situacaoMatricula = situacaoMatricula;
     }
 
-    public Aluno(String idUsuario, String nomeUsuario, String cpf, date dataNascimento, String email, date dataRegistro, boolean situacaoMatricula) {
-        super(idUsuario, nomeUsuario, cpf, dataNascimento, email, dataRegistro);
+    public Aluno(String idUsuario, String nomeUsuario, String cpf, String email, boolean situacaoMatricula) {
+        super(idUsuario, nomeUsuario, cpf, email);
         this.situacaoMatricula = situacaoMatricula;
     }
 
@@ -20,9 +20,10 @@ public class Aluno extends Usuario {
         this.anoLetivo = anoLetivo;
     }
 
-    public Aluno(String idUsuario, String nomeUsuario, String cpf, date dataNascimento, String email, date dataRegistro, String matriculaAluno, int anoLetivo) {
-        super(idUsuario, nomeUsuario, cpf, dataNascimento, email, dataRegistro);
+    public Aluno(String idUsuario, String nomeUsuario, String cpf, String email, String matriculaAluno, int anoLetivo) {
+        super(idUsuario, nomeUsuario, cpf, email);
         this.matriculaAluno = matriculaAluno;
         this.anoLetivo = anoLetivo;
     }
+
 }
