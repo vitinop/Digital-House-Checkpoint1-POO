@@ -3,7 +3,7 @@ package entities;
 public class Usuario {
  // Criação de super clase
 
- protected String idUsuario;
+ protected int idUsuario;
  protected String nomeUsuario;
  protected String cpf;
  ;
@@ -12,7 +12,7 @@ public class Usuario {
  public Usuario() {
  }
 
- public Usuario(String idUsuario, String nomeUsuario, String cpf, String email) {
+ public Usuario(int idUsuario, String nomeUsuario, String cpf, String email) {
   this.idUsuario = idUsuario;
   this.nomeUsuario = nomeUsuario;
   this.cpf = cpf;
@@ -22,11 +22,11 @@ public class Usuario {
 
  //Metodos costumizados
 
- public String getIdUsuario() {
+ public int getIdUsuario() {
   return idUsuario;
  }
 
- public void setIdUsuario(String idUsuario) {
+ public void setIdUsuario(int idUsuario) {
   this.idUsuario = idUsuario;
  }
 
@@ -55,7 +55,14 @@ public class Usuario {
 
  }
 
- class String {
+ @Override
+ public String toString() {
+  return "Usuario{" +
+          "idUsuario=" + idUsuario +
+          ", nomeUsuario='" + nomeUsuario + '\'' +
+          ", cpf='" + cpf + '\'' +
+          ", email='" + email + '\'' +
+          '}';
  }
 }
 
