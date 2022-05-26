@@ -60,7 +60,7 @@ public class Administrador {
     public String toString() {
         return "Administrador {" +
                 "nome Professor= " + nomeProfessor + '\'' +
-                ", nomeAluno= " + nomeAluno + '\'' +
-                ", statusUsuario= " + statusUsuario  ;
+                ", nome Aluno= " + nomeAluno + '\'' +
+                ", status Usuario= " + statusUsuario  ;
     }
 }
