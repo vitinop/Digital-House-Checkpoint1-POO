@@ -1,5 +1,7 @@
 package entities;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Administrador {
     //declaração de atributos
 
@@ -12,8 +14,19 @@ public class Administrador {
     public Administrador() {
     }
 
+
+
     // Constructor com sobrecarga
 
+    public Administrador(String nomeProfessor, String nomeAluno, boolean statusUsuario) {
+        this.nomeProfessor = nomeProfessor;
+        this.nomeAluno = nomeAluno;
+        this.statusUsuario = statusUsuario;
+
+    }
+
+
+    // Métodos Getters and Setters
     public String getNomeProfessor() {
         return nomeProfessor;
     }
@@ -36,18 +49,19 @@ public class Administrador {
 
     public void setStatusUsuario(boolean statusUsuario) {
         this.statusUsuario = statusUsuario;
+
     }
-
-    public Administrador(String nomeProfessor, String nomeAluno, boolean statusUsuario) {
-        this.nomeProfessor = nomeProfessor;
-        this.nomeAluno = nomeAluno;
-        this.statusUsuario = statusUsuario;
-    }
-
-
-    // Métodos Getters and Setters
-
 
 
     //Métodos costumizados
+
+
+    @Override
+    public String toString() {
+        return "Administrador{" +
+                "nomeProfessor='" + nomeProfessor + '\'' +
+                ", nomeAluno='" + nomeAluno + '\'' +
+                ", statusUsuario=" + statusUsuario +
+                '}';
+    }
 }

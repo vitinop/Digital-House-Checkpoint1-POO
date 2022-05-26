@@ -34,4 +34,12 @@ public class Aluno extends Administrador {
 
 
     //Métodos costumizados
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "Aluno{" +
+                "matriculaAluno='" + matriculaAluno + '\'' +
+                '}';
+    }
 }
