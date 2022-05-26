@@ -12,3 +12,9 @@ individual.</p>
 ---
 <p align="center">Este é o diagrama UML ilustrando todas interações de classes para o cenário apresentado acima </p>
 <p align="center"><img height="520em" src="./imgDescricao/DiagramaCheckpoint1-POO.jpg" /></p>
+
+#### Equipe:
+
+ - <p><a href="https://github.com/fehbr800" title="Matheus Emanuel Github">Matheus Emanuel</a></p>
+ - <p><a href="https://github.com/vitinop" title="Victor Luz Github">Victor Luz</a></p>
+
