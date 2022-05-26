@@ -58,7 +58,7 @@ public class Professor extends Administrador {
     }
 
     public void calcularMedia (double valor){
-        this.nota = nota + (valor / 5);
+        this.nota = nota + (valor / 4);
         if(nota >= 6.0){
             System.out.println("Você está aprovado amigão: " + this.nota);
         }else {
@@ -67,12 +67,13 @@ public class Professor extends Administrador {
         }
     }
 
+
     @Override
     public String toString() {
-        return super.toString() + "Professor{" +
-                "formacaoAcademica='" + formacaoAcademica + '\'' +
-                ", matriculaProfessor='" + matriculaProfessor + '\'' +
-                ", nota=" + nota +
+        return super.toString() +
+                ", formacao Academica= '" + formacaoAcademica + '\'' +
+                ", matricula Professor= '" + matriculaProfessor + '\'' +
+                ", nota= " + nota +
                 '}';
     }
 }

@@ -28,4 +28,12 @@ public class Disciplina extends Administrador{
 
 
     //Métodos costumizados
+
+
+    @Override
+    public String toString() {
+        return "Disciplina " +
+                "nota Aluno= " + notaAluno +
+                ", nome Disciplina= " + nomeDisciplina + '\'';
+    }
 }

@@ -58,10 +58,9 @@ public class Administrador {
 
     @Override
     public String toString() {
-        return "Administrador{" +
-                "nomeProfessor='" + nomeProfessor + '\'' +
-                ", nomeAluno='" + nomeAluno + '\'' +
-                ", statusUsuario=" + statusUsuario +
-                '}';
+        return "Administrador {" +
+                "nome Professor= " + nomeProfessor + '\'' +
+                ", nomeAluno= " + nomeAluno + '\'' +
+                ", statusUsuario= " + statusUsuario  ;
     }
 }

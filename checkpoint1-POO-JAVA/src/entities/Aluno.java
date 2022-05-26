@@ -38,8 +38,7 @@ public class Aluno extends Administrador {
 
     @Override
     public String toString() {
-        return super.toString() + "Aluno{" +
-                "matriculaAluno='" + matriculaAluno + '\'' +
-                '}';
+        return super.toString() +  ", Aluno " +
+                "matricula Aluno=  " + matriculaAluno + '\'';
     }
 }
