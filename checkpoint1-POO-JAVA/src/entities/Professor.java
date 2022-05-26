@@ -57,6 +57,16 @@ public class Professor extends Administrador {
         System.out.println("Sua nota agora é: " + this.nota);
     }
 
+    public void calcularMedia (double valor){
+        this.nota = nota + (valor / 5);
+        if(nota >= 6.0){
+            System.out.println("Você está aprovado amigão: " + this.nota);
+        }else {
+            System.out.println("Sinto muito amigão:" + this.nota);
+
+        }
+    }
+
     @Override
     public String toString() {
         return super.toString() + "Professor{" +
