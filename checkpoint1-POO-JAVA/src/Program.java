@@ -16,7 +16,8 @@ public class Program {
        System.out.println("Instância do primeiro Aluno");
        Professor p1 = new Professor("Lopes", true, "Manoel","Matemática","00001");
 
-       p1.nota(7.0);
+//       p1.nota(7.0);
+       p1.calcularMedia(7.0 + 7.0 + 8.0 + 9.0 + 7.0);
 
        System.out.println(p1);
 
