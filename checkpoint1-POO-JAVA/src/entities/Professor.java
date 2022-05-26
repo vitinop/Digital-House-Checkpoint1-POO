@@ -62,7 +62,7 @@ public class Professor extends Administrador {
         if(nota >= 6.0){
             System.out.println("Você está aprovado amigão: " + this.nota);
         }else {
-            System.out.println("Sinto muito amigão:" + this.nota);
+            System.out.println("Sinto muito amigão: " + this.nota);
 
         }
     }
