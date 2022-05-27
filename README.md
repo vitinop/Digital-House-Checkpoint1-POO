@@ -1,5 +1,7 @@
 
+<p align="center"><img height="100em" src="https://assets-global.website-files.com/5de98c06bb83ab1e27fc1c95/61c22cc7406e8924694eefe6_60a1bee6049365927b1f1f2a_Digital-House-logo.png" /></p>
 <h1 align="center">Digital House- Módulo II</h1>
+
 <h3 align="center">Checkpoint1 - Programação Orientada a Objetos</h2>
 
 <p align="justify">&emsp; O objetivo deste checkpoint é utilizar conceitos de orientação a objetos
