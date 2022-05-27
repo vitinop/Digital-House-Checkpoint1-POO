@@ -4,6 +4,7 @@ public class Aluno extends Administrador {
     //declaração de atributos
 
     public String matriculaAluno;
+    public String nomeAluno;
 
     // Constructor padrão
     public Aluno() {
@@ -14,9 +15,11 @@ public class Aluno extends Administrador {
         this.matriculaAluno = matriculaAluno;
     }
 
-    public Aluno(String nomeProfessor, String nomeAluno, boolean statusUsuario, String matriculaAluno) {
-        super(nomeProfessor, nomeAluno, statusUsuario);
+
+    public Aluno(String nomeAluno, boolean statusUsuario, String matriculaAluno) {
         this.matriculaAluno = matriculaAluno;
+        this.nomeAluno = nomeAluno;
+        this.statusUsuario = statusUsuario;
     }
 
 
@@ -28,9 +31,14 @@ public class Aluno extends Administrador {
         return matriculaAluno;
     }
 
+    public void setNomeAluno(String nomeAluno) {
+        this.nomeAluno = nomeAluno;
+    }
+
     public String getNomeAluno() {
         return nomeAluno;
     }
+
 
 
     //Métodos costumizados

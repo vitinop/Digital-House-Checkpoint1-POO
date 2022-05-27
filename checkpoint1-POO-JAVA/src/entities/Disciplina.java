@@ -1,6 +1,6 @@
 package entities;
 
-public class Disciplina extends Administrador{
+public class Disciplina extends Professor{
     //declaração de atributos
 
     public double notaAluno;
@@ -12,14 +12,7 @@ public class Disciplina extends Administrador{
 
     // Constructor com sobrecarga
 
-
     public Disciplina(double notaAluno, String nomeDisciplina) {
-        this.notaAluno = notaAluno;
-        this.nomeDisciplina = nomeDisciplina;
-    }
-
-    public Disciplina(String nomeProfessor, String nomeAluno, boolean statusUsuario, double notaAluno, String nomeDisciplina) {
-        super(nomeProfessor, nomeAluno, statusUsuario);
         this.notaAluno = notaAluno;
         this.nomeDisciplina = nomeDisciplina;
     }

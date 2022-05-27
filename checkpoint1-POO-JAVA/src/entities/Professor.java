@@ -3,6 +3,7 @@ package entities;
 public class Professor extends Administrador {
     //declaração de atributos
 
+    private  String nomeProfessor;
     private  String formacaoAcademica;
     private  String matriculaProfessor;
 
@@ -14,8 +15,9 @@ public class Professor extends Administrador {
 
     // Constructor com sobrecarga
 
-    public Professor(String nomeProfessor, boolean statusUsuario, String nomeAluno, String formacaoAcademica, String matriculaProfessor) {
-        super(nomeProfessor, nomeAluno, statusUsuario);
+    public Professor(String nomeProfessor, boolean statusUsuario,  String formacaoAcademica, String matriculaProfessor) {
+        super(statusUsuario);
+        this.nomeProfessor = nomeProfessor;
         this.formacaoAcademica = formacaoAcademica;
         this.matriculaProfessor = matriculaProfessor;
         this.nota = 0.0;
@@ -25,10 +27,18 @@ public class Professor extends Administrador {
 
 
     // Métodos Getters and Setters
+    public void setNomeProfessor(String nomeProfessor) {
+        this.nomeProfessor = nomeProfessor;
+    }
+
+    public String getNomeProfessor() {
+        return nomeProfessor;
+    }
 
     public String getFormacaoAcademica() {
         return formacaoAcademica;
     }
+
 
     public void setFormacaoAcademica(String formacaoAcademica) {
         this.formacaoAcademica = formacaoAcademica;

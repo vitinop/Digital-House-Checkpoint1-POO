@@ -7,15 +7,10 @@ public class Turma extends Administrador{
     public String anoTurma;
 
     // Constructor padrão
-    public Turma() {}
-    public Turma(String serieTurma, String anoTurma) {
-        this.serieTurma = serieTurma;
-        this.anoTurma = anoTurma;
-    }
 
     // Constructor com sobrecarga
-    public Turma(String nomeProfessor, String nomeAluno, boolean statusUsuario, String serieTurma, String anoTurma) {
-        super(nomeProfessor, nomeAluno, statusUsuario);
+    public Turma(String serieTurma, String anoTurma) {
+
         this.serieTurma = serieTurma;
         this.anoTurma = anoTurma;
     }
