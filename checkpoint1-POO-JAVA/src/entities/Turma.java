@@ -1,6 +1,6 @@
 package entities;
 
-public class Turma extends Administrador{
+public class Turma extends Disciplina {
     //declaração de atributos
 
     public String serieTurma;
