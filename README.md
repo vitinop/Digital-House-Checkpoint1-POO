@@ -45,8 +45,11 @@ A escola pretende informatizar os registros referentes as Turmas,
 <h3 align="center">Este é o diagrama UML ilustrando todas interações de classes para o cenário apresentado acima </h3>
 <p align="center"><img height="600em" src="./imgDescricao/DiagramaCheckpoint1-POO.jpg" /></p>
 
-#### Equipe:
-
- - <p><a href="https://github.com/fehbr800" title="Matheus Emanuel Github">Matheus Emanuel</a></p>
- - <p><a href="https://github.com/vitinop" title="Victor Luz Github">Victor Luz</a></p>
+####
+<div align="start"> 
+<h2> :handshake: Integrantes</h2>
+  <li><a target="_blank" href="https://github.com/fehbr800" title="Matheus Emanuel Github">Matheus Emanuel</a></li>
+  <li><a target="_blank" href="https://github.com/vitinop" title="Victor Luz Github">Victor Luz</a></li>
+ 
+ </div>
 
