@@ -46,7 +46,10 @@ public class Aluno extends Administrador {
 
     @Override
     public String toString() {
-        return super.toString() +  ", Aluno " +
-                "matricula Aluno=  " + matriculaAluno + '\'';
+        return "Aluno: {" +
+                "Matricula do aluno:'" + matriculaAluno + '\'' +
+                ", Nome do aluno:'" + nomeAluno + '\'' +
+                ", Status do usuario: " + statusUsuario +
+                '}';
     }
 }

@@ -37,6 +37,7 @@ public class Administrador {
 
     @Override
     public String toString() {
-        return "status Usuario= " + statusUsuario  ;
+
+        return "status Usuario:  " + statusUsuario  ;
     }
 }

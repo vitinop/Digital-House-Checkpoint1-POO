@@ -14,10 +14,17 @@ public class Program {
        System.out.println("Instância do primeiro Professor");
        Professor p1 = new Professor("Lopes", true, "Matemática","00001");
 
-//       p1.nota(7.0);
+       //
+       Professor p2 = new Professor("Leoncio",true, "Português","00002");
+
+
+       //
        p1.calcularMedia(7.0 + 7.0 + 8.0 + 9.0);
        System.out.println(p1);
        System.out.println("");
+       p2.calcularMedia(8.0 + 6.0 + 5.0 + 9.0);
+       System.out.println(p2);
+
 
        //
 
@@ -32,6 +39,10 @@ public class Program {
        Disciplina d1 = new Disciplina(7.75,"Matemática");
        System.out.println(d1);
        System.out.println("");
+       System.out.println("Instância de segunda disciplina");
+       Disciplina d2 = new Disciplina(7.0,"Português");
+       System.out.println(d2);
+
 
 
    }

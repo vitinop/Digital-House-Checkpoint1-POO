@@ -25,8 +25,8 @@ public class Disciplina extends Professor{
 
     @Override
     public String toString() {
-        return "Disciplina " +
-                "nota Aluno= " + notaAluno +
-                ", nome Disciplina= " + nomeDisciplina + '\'';
+        return
+                "Nota do aluno:  " + notaAluno +
+                ", Nome da disciplina: " + nomeDisciplina + '\'';
     }
 }

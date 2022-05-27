@@ -40,7 +40,7 @@ public class Turma extends Administrador{
 
     @Override
     public String toString() {
-        return  "serie Turma= " + serieTurma + '\'' +
-                ", ano Turma= " + anoTurma + '\'';
+        return  "Serie da turma: " + serieTurma + '\'' +
+                ", Ano da turma: " + anoTurma + '\'';
     }
 }
