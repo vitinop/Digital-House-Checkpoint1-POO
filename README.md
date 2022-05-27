@@ -15,24 +15,30 @@ individual.</p>
 <h3 align="center"><u>Características básicas do problema e solução aplicada.</h3>
 
 
-Uma escola de ensino fundamental possui 12 turmas e tem grande problema para emitir relatórios de aprovação e gerenciamento de alunos.
+<p>Uma escola de ensino fundamental possui 12 turmas e tem grande problema para emitir relatórios de aprovação e gerenciamento de alunos.
 A escola pretende informatizar os registros referentes as Turmas,
- Professores e Alunos adotando um sistema que permita que o:
+ Professores e Alunos adotando um sistema que permita que o:</p>
 
-Administrador - Oque o usuário pode fazer ?
--Pode gerir o estado de cada usuário para Ativo ou não ativo na instituição.
--Turmas: Criar/Editar/Visualizar. Turmas e matérias atrelados a eles e os horários de cada Turma. ,
--Alunos: Criar/Editar/Visualizar. Alunos e Gerencie Alunos entre turmas e informações relativas a sua inscrição.
--Professores: Criar/Editar/Visualizar. Professores e seus horários.
+<p>Administrador - Oque o usuário pode fazer ?</p>
+<ul>
+
+<li>Pode gerir o estado de cada usuário para Ativo ou não ativo na instituição.</li>
+<li>Inteiração com a Classe Turmas: Criar/Editar/Visualizar. Turmas e matérias atrelados a eles e os horários de cada Turma. </li>
+<li>Inteiração com a Classe Alunos: Criar/Editar/Visualizar. Alunos e Gerencie Alunos entre turmas e informações relativas a sua inscrição.</li>
+<li>Inteiração com a Classe Professores: Criar/Editar/Visualizar. Professores e seus horários.</li>
+ 
+ </ul>
 
 
-Professores - Oque o usuário pode fazer ?
--Aluno : Adicionar/ Editar Nota de um aluno - Visualizar dados relativos a inscrição do aluno
--Professor: Visualizar seus dados/matérias
+<p>Professores - Oque o usuário pode fazer ?</p>
+ <ul>
+<li>Inteiração com a Classe Aluno : Adicionar/ Editar Nota de um aluno - Visualizar dados relativos a inscrição do aluno
+<li>Inteiração com a Classe Professor: Visualizar seus dados/matérias </li>
+  </ul>
 
 
-Alunos - Oque o usuário pode fazer ?
--Aluno: Visualizar. Consulta sua nota, horários de aula , turmas que já participou ou participou, notas relativas a matéria, e dados relativos a sua inscrição ( nome,  ano letivo, turma que já participou e notas relativa à matéria)
+<p>Alunos - Oque o usuário pode fazer ?</p>
+<li>Inteiração com a Aluno: Visualizar. Consulta sua nota, horários de aula , turmas que já participou ou participou, notas relativas a matéria, e dados relativos a sua inscrição ( nome,  ano letivo, turma que já participou e notas relativa à matéria)</li>
 
 <h3 align="center">Este é o diagrama UML ilustrando todas interações de classes para o cenário apresentado acima </h3>
 <p align="center"><img height="600em" src="./imgDescricao/DiagramaCheckpoint1-POO.jpg" /></p>
